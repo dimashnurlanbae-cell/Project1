@@ -1,0 +1,24 @@
+.website {text-align: center; 
+color: rgb(255, 0, 0);}
+p {
+color: red;
+   font-size: 28px;
+}
+.highlight {color: aqua;
+text-align: center;}
+.weigxt {font-weight: bold;}
+body {
+   background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrq2Vryh3PS0MA2R3KIifNRkL_tUOXk3uGOg&s');
+background-size: cover;
+}
+.div {
+   background-color: aqua;
+   width: 30px;
+   height: 25px;
+}
+.box1 {padding: 15px;}
+.box2 {margin: 15px;}
+.box3 {border: 1px solid black;}
+.h3 {   width: 30px;
+   height: 25px;}
+.h4 {overflow: hidden;}
