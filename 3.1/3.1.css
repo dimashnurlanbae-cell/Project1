@@ -1,0 +1,10 @@
+.website {width: 100px;
+height: 100px;}
+.highlight {
+font-size: 2em;
+}
+.hi {font-size: 2rem;}
+.hello {width: 50%;}
+.l {color:#FF5733;}
+.r {color: rgb(52, 152, 219);}
+.t {color: rgba(255, 87, 51, 0.5);}
