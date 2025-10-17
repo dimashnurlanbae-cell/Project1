@@ -1,0 +1,13 @@
+.style {display: inline;
+color: rgba(127, 255, 212, 0.877);}
+.hi {display: inline;
+color: rgb(0, 183, 255);}
+.hello {display: inline;
+color: rgb(127, 255, 150);}
+.img {display: block;}
+.block {display:block;
+margin: auto;}
+.p {display: block;
+margin: auto;}
+.inline {display: block;
+margin: auto;}
