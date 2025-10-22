@@ -1,0 +1,30 @@
+.button:hover {
+   background-color: #0095b3c6;
+}
+input:focus {
+   border-color: #007bff;
+}
+.list-item:last-child{
+   font-weight: bold;
+}
+.list-item:last-child {
+   color: #ff0000;
+}
+.a:first-child {
+   font-weight: bold;
+}
+.a:last-child {
+   color: #ff0000;
+}
+.b:focus {
+   border-color: #007bff;
+}
+.b:hover {
+   background-color: #0056b3;
+}
+.h4:first-child:hover {
+color:#0095b3c6
+}
+.h4:last-child:focus {
+    background-color: #ff0000;
+}
