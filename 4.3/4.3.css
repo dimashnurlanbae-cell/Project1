@@ -1,0 +1,32 @@
+.style {position: static;
+           width: 200px;
+           height: 100px;
+           background-color: lightblue;}
+.hi {position: static;
+           width: 200px;
+           height: 100px;
+           background-color: rgba(34, 34, 32, 0.74);}
+.block {position: relative;
+           top: 50px;
+           left: 50px;
+           color: rgba(34, 34, 32, 0.74);}
+.div1 {position:absolute;
+           top: 350px;
+           left: 50px;
+           color: rgba(12, 166, 197, 0.817);}
+.div2 {position:absolute;
+          top: 300px;
+           left: 20px;
+           color: rgba(12, 166, 197, 0.817);} 
+.div3 {position: fixed;
+bottom: 10px;
+right: 10px;}
+.a1 {position:sticky;
+          top: 50px;
+           color: rgba(12, 166, 197, 0.817);} 
+.a2 {position:sticky;
+          top: 210px;
+           color: rgba(12, 197, 123, 0.817);} 
+.a3 {position:sticky;
+          top: 200px;
+           color: rgba(12, 95, 197, 0.817);}
