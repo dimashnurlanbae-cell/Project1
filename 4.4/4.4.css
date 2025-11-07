@@ -1,0 +1,44 @@
+.div1 {display: block;
+background-color: rgb(0, 255, 13);}
+.div2 {display: inline;
+background-color: rgb(245, 245, 220);}
+.div3 {display: flex;
+background-color: rgb(255, 146, 127);}
+.a {display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+flex-flow: row;}
+.container {display:flex;
+flex-wrap:wrap;
+justify-content: center;
+align-items: center;
+align-content: center;}
+.container1 {display: flex;}
+.div1 {flex-wrap: wrap;
+color: rgb(9, 163, 163);}
+.div2 {flex-shrink: inherit;
+color: rgb(19, 117, 114);}
+.div3 {flex-basis: 50px;
+color: rgb(24, 128, 128);}
+.container {display: flex;}
+.div4 {flex: 0 0 50%;
+color: rgb(70, 73, 79);}
+.div5 {flex: 1;
+color: rgb(119, 255, 0);}
+.div6 {flex: 100px;
+background-color: rgb(207, 210, 213);}
+.container3 {display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+align-content: center;}
+.item1 {flex-wrap: wrap;}
+.cart {background-color: rgba(240, 248, 255, 0.774);
+border: 1px solid black; height: 100px;
+flex-basis:100px;}
+.container4 {display: flex;
+flex-basis: 100px;
+justify-content: space-between;
+}
+.cart1 {flex-grow: 1;}
+.cart2 {flex-shrink: 1;}
