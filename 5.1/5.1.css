@@ -1,0 +1,290 @@
+.header {
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    background-color: #E1EDE6;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+    display: none;
+}
+
+.img11 {
+    display: none;
+
+}
+
+.img1 {
+    margin-top: 33px;
+    margin-left: 165px;
+    width: 143px;
+    height: 35px;
+    gap: 8px;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    margin-top: 38px;
+    margin-bottom: 39px;
+}
+
+.block1 {
+    width: 130px;
+    height: 23px;
+    margin-left: 497px;
+}
+
+.block4 {
+    width: 540px;
+    height: 132px;
+    margin-left: 30px;
+    font-size: 60px;
+}
+
+.block5 {
+    width: 540px;
+    height: 54px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.block6 {
+    color: #598D66; 
+    width: 227px;
+    height: 65px;
+    border: 1px solid #598D66;
+    line-height: 65px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+
+span {
+    color: #598D66;
+}
+
+@media ( max-width:690px ) {
+ .header {
+    display: flex;
+    width: 768px;
+    height: 100px;
+    background-color: #E1EDE6;
+}
+
+.img1 {
+    margin-top: 33px;
+    margin-left: 39px;
+    width: 143px;
+    height: 35px;
+    gap: 8px;
+}
+
+.nav {
+    display: flex;
+    gap: 60px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.block1 {
+    width: 117px;
+    height: 21px;
+    margin-left: 101px;
+}
+
+.block4 {
+    width: 330px;
+    height: 80px;
+    margin-top: 35px;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+.block5 {
+    width: 330px;
+    height: 108px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.block6 {
+    color: #598D66; 
+    width: 210px;
+    height: 60px;
+    border: 1px solid #598D66;
+    line-height: 60px;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 330px;
+    height: 380px;
+    margin-left: 39px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+}
+@media ( max-width:510px ) {
+hr {
+    display: block;
+    width: 510px;
+}
+.header {
+    width: 576px;
+    flex-direction: column;
+    align-items: center;
+    height: 123px;
+}
+.img1 {
+    margin-top: 16px;
+    width: 143px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.img2 {
+    margin-left: 64px;
+}
+.nav {
+    display: flex;
+    gap: 60px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.block1 {
+    width: 117px;
+    height: 24px;
+    margin-left: 0px;
+}
+
+.block4 {
+    width: 285px;
+    height: 72px;
+    margin-top: 50px;
+    margin-left: 30px;
+    font-size: 36px;
+}
+
+.block5 {
+    width: 285px;
+    height: 86px;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 16px;
+    margin-bottom: 11px;
+    color: #86928B;
+    line-height: 150%;
+}
+
+.block6 {
+    color: #598D66; 
+    width: 178px;
+    height: 50px;
+    border: 1px solid #598D66;
+    line-height: 60px;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 11px;
+    margin-left: 30px;
+}
+
+.img3 {
+    width: 195px;
+    height: 239px;
+    margin-left: 33px;
+    margin-top: 50px;
+}
+
+.header2 {
+    display: flex;
+    align-items: center;
+}
+}
+
+@media ( max-width:320px ) {
+    .header {
+        flex-direction: column;
+        background-color: white;
+        justify-content: center;
+        width: 320px;
+        height: 130px;
+    }
+    hr {
+        display: none;
+    }
+    .block1 {
+        display: none;
+
+    }
+    .block2 {
+        display: none;
+    }
+    .block3 {
+        display: none;
+    }
+    .nav {
+        background-color: #E1EDE6;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0px;
+        width: 320px;
+        height: 65px;
+    }
+    .img11 {
+        display: block;
+        margin-left: 15px;
+    }
+    .img3 {
+        display: none;
+    }
+    .block4 {
+        width: 295px;
+        height: 60px;
+        font-size: 30px;
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+    .block5 {
+        width: 290px;
+        height: 63px;
+        font-size: 14px;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+    .block6 {
+        width: 154px;
+        height: 50px;
+        font-size: 18px;
+        margin-top: 40px;
+        margin-left: 15px;
+    }
+    .img2 {
+        margin-right: 19px;
+    }
+    .img1 {
+        margin-top: 17px;
+        margin-bottom: 16px;
+        margin-left: 88px;
+        margin-right: 88px;
+    }
+}
