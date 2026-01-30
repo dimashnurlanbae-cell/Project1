@@ -1,0 +1,145 @@
+body {
+    /* display:flex; */ 
+    background-color:#2C2D35;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card1 {
+    background-color: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 730px;
+}
+
+.Marsel-Russo {
+    color:#86928B;
+    width: 133px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.amur {
+    color: #2C2D35;
+    width: 200px;
+    height: 28px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.xolst {
+    color: #2C2D35;
+    width: 310px;
+    height: 21px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.prise {
+    color: #598D66;
+    width: 122 px;
+    height: 28px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.png1 {
+    color: #598D66;
+    width: 250px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px #598D66 solid;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.card2 {
+    background-color: #E1EDE6;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 730px;
+}
+
+.anri-selin {
+    color:#86928B;
+    width: 133px;
+    height: 21px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.dama {
+    color: #2C2D35;
+    width: 310px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.ackril {
+    color: #2C2D35;
+    width: 310px;
+    height: 21px;
+    margin-top: 8px;
+    margin-left: 20px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.prise2 {
+    color: #598D66;
+    width: 122 px;
+    height: 28px;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+.png2 {
+    color: #598D66;
+    width: 310px;
+    height: 65px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+    background-color: transparent;
+    border: 1px #598D66 solid;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.png {
+    width: 310px;
+    height: 422px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.galerey {
+    display: grid;
+    grid-template-columns: 350px 350px;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.galerey2 {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 30px;
+    width: fit-content;
+    margin: auto;
+}
