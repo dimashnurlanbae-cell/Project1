@@ -1,0 +1,15 @@
+@font-face {
+   font-family: "MyFont";
+   src: url(./static/Montserrat-Bold.ttf);
+}
+
+.Hello {
+   color: rebeccapurple;
+   font-family: "MyFont";
+}
+.l {
+   font-family: "Montserrat";
+}
+.r {
+   font-family: 'Times New Roman', Times, serif;
+}
