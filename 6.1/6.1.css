@@ -1,0 +1,40 @@
+.hi {
+   box-shadow: 6px 6px 5px 0px rgba(224, 102, 102, 0.75);
+   background-color: brown;
+   width: 70px;
+   height: 70px;
+}
+
+.hello {
+    box-shadow: 5px 5px 10px 0px rgba(92, 102, 177, 0.75);
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+}
+
+.bye {
+    box-shadow: 5px 5px 10px 0px rgba(103, 218, 99, 0.75);
+    background-color: chartreuse;
+    width: 60px;
+    height: 60px;
+}
+
+.web {
+   text-shadow: 2px 2px 5px rgba(39, 221, 82, 0.5);
+   color: green;
+}
+
+.website {
+    text-shadow: 1px 2px 4px rgba(255, 125, 125, 0.5);
+    color: red;
+}
+
+.gradient {
+   background: linear-gradient(to right, red, yellow);
+}
+
+.element {
+   background: radial-gradient(circle, red 5%, yellow 5%, green 80%);
+   width: 50px;
+   height: 50px;
+} 
