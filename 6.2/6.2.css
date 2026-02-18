@@ -1,0 +1,66 @@
+.element {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    transform: rotate(45deg);
+    margin-bottom: 150px;
+}
+
+.slide {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    transform: scale(2);
+    margin-bottom: 150px;
+}
+
+.pulse {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    transform: translate(15px,10px);
+    margin-bottom: 150px;
+}
+
+.hello {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: skew(60deg);
+    margin-bottom: 150px;
+}
+
+.test {
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    transition: background-color 1s,transform 2s;
+}
+
+.test:hover {
+    background-color: red;
+    transform: scale(1.5);
+}
+
+@keyframes animation {
+    0% {
+        background-color: chartreuse;
+        transform: skew(45deg);
+    }
+    50% {
+        background-color: red;
+        transform: skew(90deg);
+    }
+    100% {
+        background-color: yellow;
+        transform: skew(45deg);
+    }
+}
+
+.animation {
+    margin-bottom: 90px;
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    animation: animation 3s infinite;
+}
