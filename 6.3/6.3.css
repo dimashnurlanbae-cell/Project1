@@ -1,0 +1,43 @@
+.paragraph::before {
+   content: "Вставлено перед содержимым";
+   display: block;
+   color: #84ea31;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+
+.paragraph2::before {
+   content: "Вставлено перед содержимым";
+   display: block;
+   color: #ff2828;
+   margin-bottom: 10px;
+   font-size: 20px;
+}
+
+.element1::after {
+   content: "Вставлено после содержимого";
+   display: block;
+   color: #54ff35;
+   margin-top: 10px;
+}
+
+.element2::after {
+   content: "Вставлено после содержимогo";
+   display: block;
+   color: #007bff;
+   margin-top: 10px;
+}
+
+.class::before {
+   content: "__________________________________________________";
+   display: block;
+   color: #ff6565;
+   margin-bottom: 10px;
+}
+
+.class::after {
+   content: "__________________________________________________";
+   display: block;
+   color: #ff5353;
+   margin-top: 10px;
+}
