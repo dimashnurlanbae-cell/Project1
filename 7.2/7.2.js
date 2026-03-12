@@ -32,7 +32,9 @@ console.log(toString(undefinedv))
 console.log(parseInt(n))
 //Задание 5
 let integer = 60;
-console.log(toString(integer)) 
+console.log(typeof integer);
+integer = "Привет!";
+console.log(typeof integer);
 //Задание 6
 let name = prompt("Введите имя")
 let age = prompt("Введите ваш возраст")
