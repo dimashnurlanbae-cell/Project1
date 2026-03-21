@@ -23,11 +23,11 @@ if (UserAge <= 18) {
     console.log("Вы молодой взрослый");
 };
 //Задание 4
-let number1 = prompt("Введите любое число:")
-if (number1 / 2 ) {
-    console.log("Число четное");
+let number1 = prompt("Введите любое число:");
+if (number1 % 2 === 0) {
+  console.log("Четное число");
 } else {
-    console.log("Нечетное число");
+  console.log("Нечетное число");
 };
 //Задание 5
 let day = Number(prompt("Введите день недели (1-7):"));
@@ -62,9 +62,9 @@ let num2 = Number(prompt("Введите два числа:"));
 let message;
 if (num1 == num2) {
     message = "Числа равны"
-} else (
+} else {
     message = num1 > num2?"первое число больше":"второе число больше"
-)
+};
 console.log(message);
 //Доп. задание
 let month = Number(prompt("Введите номер месяца (1-12):"));
