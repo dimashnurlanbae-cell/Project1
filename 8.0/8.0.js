@@ -25,13 +25,17 @@ console.log(isEven(num));
 let num1 = Number(prompt("Введите первое число:"));
 let num2 = Number(prompt("Введите второе число:"));
 function max(a, b) {
-   return a > b;
+   if (a > b) {
+      return a
+   }
+   else if (a < b) {
+      return b 
+   }
+   else {
+      return "Числа равны"
+   };
 }
-if ( max(num1,num2)) {
-   console.log("Первая больше");
-} else {
-   console.log("Первая меньше");
-}
+console.log(max(num1,num2));
 //Задание 6
 let name = prompt("Введите ваше имя:")
 let surname = prompt("Введите вашу фамилию:")
