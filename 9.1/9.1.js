@@ -34,18 +34,28 @@ do {
    count3++;
 } while (count3 < 6);
 //Задание 4
-let input;
-while (input !== "50") {
-   input = prompt("Введите '50' для завершения");
-   console.log("Вы ввели: " + input);
-};
+while (true) {
+  let num = prompt("Введите число для выхода введите 10:");
+
+  if (num == 10) {
+    console.log("Вы ввели 10");
+    break;
+  }
+}
 //Задание 5
 for (let i = 0; i < 11; i++) {
    console.log(i);
 };
 //Задание 6
-for (let i = 0; i < 101; i++) {
-    console.log(i)
+let i = 0;
+
+for (;;) {
+  if (i > 100) {
+    break;
+  }
+
+  console.log(i);
+  i++;
 }
 //Задание 7
 let numbers = [1,2,3,4,5]
