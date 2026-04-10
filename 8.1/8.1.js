@@ -11,10 +11,15 @@ console.log(person.name);
 console.log(person.age);
 console.log(person.city);
 //Задание 3
-const greet = function(person) {
-   console.log("Привет, меня зовут " + person.name + ", мне " + person.age + " лет!");
+let person = {
+  name: "Димаш",
+  age: 12,
+  greet: function() {
+    console.log(`Привет, меня зовут ${this.name}, мне ${this.age} лет!`);
+  }
 };
-greet(person);
+
+person.greet();
 //Задание 4
 let obj1 = { a: 10, b: 20 };
 let obj2 = { a: 10, b: 20 };
