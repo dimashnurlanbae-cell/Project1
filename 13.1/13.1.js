@@ -43,6 +43,14 @@ fetch('https://jsonplaceholder.typicode.com/posts/1', {
 })
     .then((response) => response.json())
     .then((data) => console.log('Результат PUT:', data));
+fetch('https://jsonplaceholder.typicode.com/posts/1', {
+    method: "delete"
+})
+.then((response) => {
+    if (response) {
+        console.log("Пост удален")
+    } 
+})
 //Задание 5
 fetch('https://jsonplaceholder.typicode.com/posts/1', {
     method: 'PUT',
